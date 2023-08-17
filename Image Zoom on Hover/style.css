@@ -1,0 +1,18 @@
+
+.img-box {
+    overflow: hidden;
+    border-radius: 20px;
+    width: 300px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+img:hover {
+    transform: scale(1.1)
+}
